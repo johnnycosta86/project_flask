@@ -5,20 +5,20 @@ que retorna a predição utilizando um modelo fashion mnist criado via tensorflo
 
 (necessário ter o pip e o pipenv instalado na maquina)
 
-1 - wget https://bootstrap.pypa.io/get-pip.py
+1 - $ wget https://bootstrap.pypa.io/get-pip.py
 
-2 - sudo python get-pip.py
+2 - $ sudo python get-pip.py
 
-3 - pip install pipenv
+3 - $ pip install pipenv
 
-Baixa Projeto
-# git clone https://github.com/johnnycosta86/project_flask.git
+[Baixa Projeto]
+### $ git clone https://github.com/johnnycosta86/project_flask.git
 
-Baixa Todas Dependencias do projeto.                   
-# pipenv install 
+[Baixa Todas Dependencias do projeto]                   
+### $ pipenv install 
                  
-Roda a aplicacao no localhost:5000/
-# pipenv run python app.py
+[Roda a aplicacao no localhost:5000/]
+### $ pipenv run python app.py
 
 Utilizando o postman, envia requisicoes post no endereco localhost:5000/api/v1/4.png
 O endpoint retorna qual tipo de imagem representa a imagem 4.png (salvo na pasta upload do projeto),
