@@ -4,8 +4,11 @@ Projeto 'HelloWorld' utilizando o framework web Flask em python, consumindo um r
 que retorna a predição utilizando um modelo fashion mnist criado via tensorflow.
 
 (necessário ter o pip e o pipenv instalado na maquina)
+
 1 - wget https://bootstrap.pypa.io/get-pip.py
+
 2 - sudo python get-pip.py
+
 3 - pip install pipenv
 
 Baixa Projeto
