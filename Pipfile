@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+tensorflow-gpu = "==2.0.0.alpha0"
+scipy = "*"
+tensorflow = "==2.0.0-rc0"
+numpy = "*"
+pandas = "*"
+pillow = "*"
+matplotlib = "*"
+imageio = "*"
+requests = "*"
+flask = "*"
+
+[requires]
+python_version = "3.7"
