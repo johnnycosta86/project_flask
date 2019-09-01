@@ -21,5 +21,8 @@ Utilizando o postman, envia requisicoes post no endereco localhost:5000/api/v1/4
 O endpoint retorna qual tipo de imagem representa a imagem 4.png (salvo na pasta upload do projeto),
 
 O modelo utilizado e' o fashion mnist, que e' o hello world para modelos de visao computacional.
-Esse modelo possui 10 classes de saida. ["T-shirt/top", "Trouser", "Pullover", "Dress", "Coat", "Sandal", "Shirt", "Sneaker", "Bag", "Ankle boot"]
+
+Esse modelo possui 10 classes de saida.
+["T-shirt/top", "Trouser", "Pullover", "Dress", "Coat", "Sandal", "Shirt", "Sneaker", "Bag", "Ankle boot"]
+
 E tambem possui 70.000 imagens de 28x28, com 60.000 para treinamento e 10.000 para testes.
